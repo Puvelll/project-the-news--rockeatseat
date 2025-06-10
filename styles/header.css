@@ -17,15 +17,19 @@
     }
 }
 
-.container{
-    max-width: 1280px;
-    padding-inline: 32px;
-    margin-inline: auto;
-}
-
 
 #secondary{
     padding-block: 14px;
     border-block: solid 1px var(--stroke-color);
     justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+/* utility-first */
+.grid{
+    display: grid;
+}
+
+.grid-flow-col{
+    grid-auto-flow: column;
 }
